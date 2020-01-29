@@ -1,7 +1,7 @@
 import { message } from 'antd';
 import {
   FETCH_USER_LIST_FAIL
-} from '../../constants/ActionTypes';
+} from '../../redux/types/user';
 
 export default () => next => action => {
   const ret = next(action);
