@@ -2,7 +2,7 @@ import {
   INCREMENT,
   DECREMENT,
   RESET
-} from '../../constants/ActionTypes';
+} from '../types/home';
 
 export function increment () {
   return {

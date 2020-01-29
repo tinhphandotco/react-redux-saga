@@ -2,7 +2,7 @@ import {
   INCREMENT,
   DECREMENT,
   RESET
-} from '../../../constants/ActionTypes';
+} from '../../types/home';
 
 const initialState = {
   count: 0
